@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.ig.bootcamp.core.impl.NamingServiceImpl">
+    <OCD id="com.ig.bootcamp.core.impl.NamingServiceImpl" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.description">
+        <AD id="author.name" type="String" default="author" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.name.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.name.description"/>
+        <AD id="author.gender" type="String" default="Female" name="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.gender.name" description="%com.ig.bootcamp.core.impl.NamingServiceImpl.author.gender.description">
+            <Option value="Male" label="1. Male"/>
+            <Option value="Female" label="2. Female"/>
+        </AD>
+    </OCD>
+    <Designate pid="com.ig.bootcamp.core.impl.NamingServiceImpl">
+        <Object ocdref="com.ig.bootcamp.core.impl.NamingServiceImpl"/>
+    </Designate>
+</metatype:MetaData>
